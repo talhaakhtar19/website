@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Talha Akhtar</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Assets/style.css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Talha Akhtar</a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav" style="float: right;">
+              <li><a href="#section1">Home</a></li>
+              <li><a href="#section2">About Me</a></li>
+              <li><a href="#section3">Projects</a></li>
+              <li><a href="#section4">Blog</a></li>
+              <li><a href="#section5">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="section1" class="container-fluid">
+      <h1>Welcome</h1>
+      <p>
+        My Name is Talha Akhtar and I am an Undergraduate Student at York University.
+      </p>
+    </div>
+    <div id="section2">
+      <h2>About Me</h2>
+      <div class="detail">
+        <div class="image1"></div>
+        <p>
+          I am a 3rd Year Undergraduate Student majoring in Information Technology at
+          <a href="https://www.yorku.ca/">York University</a>
+          . I am a fast learner with an aptitude to learning how to use Technical Tools. 
+          I am a particularly strong Student in courses related to Computer Science and Mathematics
+        </p>
+
+        <p>
+          I have developed Programming Skills in:
+          <ul>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>MATLAB</li>
+            <li>R</li>
+          </ul>
+        </p>
+
+        <p>
+          For more details about my Biography, Check out my resume below or download the pdf 
+          <a href="Assets/Talha Akhtar Resume.pdf">here</a>
+        </p>
+        <iframe src="Assets/Talha Akhtar Resume.pdf" title="Resume"></iframe>
+      </div>
+    </div>
+
+    <div id="section3" class="container-fluid">
+      <h1 style="text-decoration: underline">Projects</h1>
+      <h2>Some of my past work are presented below</h2>
+      <div class="row">
+        <div class="card" style="width: 18rem; margin-left: 50px;">
+          <img
+            class="card-img-top"
+            src="Assets/image6.jpg"
+            alt="coding-work"
+            width="160px"
+            height="110px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Data Structuring Program</h5>
+            <p class="card-text">
+              This is a Java Program I created which allows the user to create data structures such
+              as Linked List, Stack, Queue, Min Heap, or Binary Search Tree. They can then play around
+              with the different methods of each Structure
+            </p>
+            <a
+              href="Assets/Coding project.zip"
+              class="btn btn-primary"
+              >Check out</a
+            >
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section5" class="container-fluid" style="height:600px;">
+      <div class="contact-page">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Contact</h2>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="row">
+          <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="social-media">
+          <div class="row">
+            <div class="icon-row">
+              <a
+                class="item"
+                href="https://github.com/talhaakhtar19"
+                style="margin-right:20px;"
+              >
+                <img class="icon" src="Assets/image3.png" />
+              </a>
+
+              <a
+                class="item"
+                href="https://www.linkedin.com/in/talha-akhtar-810a2a268/"
+                style="margin-right: 20px;"
+              >
+                <img class="icon" src="Assets/image4.png" />
+              </a>
+
+              <a class="item" href="https://www.instagram.com/talhaakhtar19/">
+                <img class="icon" src="Assets/image5.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <footer class="page-footer font-small blue">
+          <div
+            class="footer-copyright text-center py-3"
+            style="margin-top: 250px; color: gray;"
+          >
+            © Copyright reserved
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
