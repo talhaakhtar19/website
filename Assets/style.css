@@ -1,4 +1,4 @@
-body {
+  body {
     position: relative;
   }
   .navbar-inverse {
@@ -16,6 +16,16 @@ body {
   #myNavbar ul li a:hover {
     color: black;
     background-color: white;
+  }
+  #theme-toggle {
+    position: fixed;
+    top: 5px;
+    right: 700px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
   }
   #section1 {
     padding-top: 150px;
