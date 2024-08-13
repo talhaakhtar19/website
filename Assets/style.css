@@ -1,6 +1,10 @@
   body {
     position: relative;
   }
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
   .navbar-inverse {
     background-color: #1e88e5;
     border-color: #1e88e5;

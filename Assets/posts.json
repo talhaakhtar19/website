@@ -1,12 +1,12 @@
 [
     {
         "title": "How I did Part 1 of this Assignment",
-        "date": "2024-08-12",
-        "content": "This is the content of the first blog post. It contains some interesting information about a specific topic."
+        "date": "August 12, 2024",
+        "content": "In order to create a light/dark toggle button, I made an alternative class to define my dark mode. I then created a script file to change the class for each section"
     },
     {
         "title": "How I did Part 2 of this Assignment",
-        "date": "2024-08-12",
-        "content": "This is the content of the second blog post. It includes more insights and thoughts on a different topic."
+        "date": "August 12, 2024",
+        "content": "I made the html file just as an initializer for the blog page. In this JSON file, I made an array of objects containing the title, date and content. In my js file, I iterate through each object to parse into js variables to be printed out."
     }
 ]
